@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Montserrat:wght@600;700&display=swap");
+@import url(reset.css);
+
+body {
+  padding-inline: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  margin: 40px;
+}
+
+.logo {
+  width: 147px;
+  height: 29.04px;
+  color: #244d4d;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.ulist {
+  width: 473px;
+  height: 21.029px;
+  color: #161616;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #161616;
+}
+
+.loupe-menu {
+  width: 78px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+section:not(:first-child) {
+  margin-top: 144px;
+}
+
+section:first-child {
+  margin-top: 26.85px;
+}
+
+.chair-container {
+  max-width: 1200px;
+  height: 560px;
+  background: #154444;
+}
+.text2 {
+  margin-inline: 20px;
+}
+.heading2 {
+  width: 671px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 101px;
+}
+.in-heading-text {
+  width: 488px;
+  height: 75px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 125% */
+  margin-top: 20px;
+}
+.button1 {
+  color: #154444;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 125% */
+  transition: 0.2s;
+  width: 172.576px;
+  height: 56px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  margin-bottom: 137px;
+}
+
+.button1:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.heading-logos {
+  width: 1200px;
+  height: 42px;
+  color: #244d4d;
+  font-family: DM Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+}
+.logos-photos {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sofa-img {
+  width: 596px;
+  height: 577px;
+}
+.advantages-text {
+  width: 436.728px;
+  height: 517.001px;
+}
+.adv-heading {
+  width: 407.766px;
+  color: #244d4d;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+}
+.adv-in-heading-text {
+  width: 436.728px;
+  height: 75px;
+  color: #444;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 125% */
+}
+.adv-items {
+  display: flex;
+  gap: 27px;
+}
+.adv-logo {
+  width: 50px;
+  height: 50px;
+}
+.adv-logo-heading {
+  color: #244d4d;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 130% */
+}
+.adv-logo-text {
+  width: 306.211px;
+  color: #383738;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+}
